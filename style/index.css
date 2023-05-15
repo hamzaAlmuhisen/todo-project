@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  padding: 32px 115px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+header nav ul a {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 69px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+main h1 {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72.135px;
+  line-height: 103px;
+  color: #393e46;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  padding-left: 32px;
+  border: 1px solid #393e46;
+  border-radius: 16px 0px 0px 16px;}
+input::placeholder {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  color: #595959;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1050px;
+  max-height: 1050px;
+  min-width: auto;
+}
+
+td {
+  border-bottom: 1px solid #5e5454;
+  padding: 10px;
+}
+
+td h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: rgba(0, 0, 0);
+}
+
+button {
+  cursor: pointer;
+}
+
+footer{
+  padding: 20px;
+  text-align: start;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* <-----------------------class class class class class class class----------------------->  */
+.material-symbols-rounded {
+  font-size: 56px;
+  color: #00adb5;
+  background-color: #00000000;
+}
+.add-btn {
+  background: #393e46;
+  border-radius: 0px 16px 16px 0px;
+  width: 90px;
+  height: 90px;
+  justify-items: baseline;
+}
+
+.check-btn {
+  background: #00adb5;
+  color: #f9e5e3;
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  border: none;
+}
+
+.delete-btn {
+  background: #aa3232;
+  color: #f9e5e3;
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  border: none;
+}
+
+.lt {
+  text-decoration-line: line-through;
+}
+table .opr {
+  text-align: end;
+}
+
+
+
+/* <-----------------------Opacity Opacity Opacity Opacity Opacity Opacity ----------------------->  */
+
+.op-5 {
+  opacity: 0.5;
+}
+
+/* <-----------------------Spacing Spacing Spacing Spacing Spacing Spacing----------------------->  */
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mt-76 {
+  margin-top: 76px;
+}
+
+.mt-92 {
+  margin-top: 92px;
+}

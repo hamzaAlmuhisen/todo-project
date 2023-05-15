@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="ToDo" content="ToDoList">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- Icons -->
+
+    <link rel="stylesheet" href="./style/index.css">
+    <title>ToDoList</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img class="logo" src="assets/logo.png" alt="Logo" />
+            <ul>
+                <li>
+                    <a href="" >Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="mt-4">To Do List</h1>
+        <form class="mt-92">
+            <input placeholder="Add New ToDo..." type="text" id="fname" name="fname">
+            <button type="submit" class="add-btn">
+
+                <span class="material-symbols-rounded">
+                    add
+                </span>
+            </button>
+        </form>
+        <table class="mt-76">
+            <thead>
+                <tr>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="op-5">
+                    <td >
+                        <h2 class="lt">Hello World</h2>
+                    </td>
+                    <td class="opr">
+                        <button class="material-symbols-rounded check-btn">check</button>
+                        <button class="material-symbols-rounded delete-btn">delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h2>Workout</h2>
+                    </td>
+                    <td class="opr">
+                        <button class="material-symbols-rounded check-btn">check</button>
+                        <button class="material-symbols-rounded delete-btn">delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h2>Team Meeting</h2>
+                    </td>
+                    <td class="opr">
+                        <button class="material-symbols-rounded check-btn">check</button>
+                        <button class="material-symbols-rounded delete-btn">delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <footer >
+        <div>
+            <p style="margin: 0;">© 2023 ToDo site.</p>
+        </div>
+      </footer>
+</body>

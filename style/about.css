@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+}
+
+body {
+  padding-bottom: 72px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  padding: 32px 115px 0px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+header nav ul a {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 69px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+main h1 {
+  font-family: cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  color: #393e46;
+  text-align: center;
+}
+main,
+p {
+  font-family: cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #393e46;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  padding-left: 32px;
+  border: 1px solid #393e46;
+  border-radius: 16px 16px 16px 16px;
+}
+input::placeholder {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  color: #595959;
+}
+
+button {
+  background: #393e46;
+  color: #00adb5;
+  font-size: 24px;
+  border-radius: 12px 12px 12px 12px;
+  padding: 20px;
+cursor: pointer;
+  justify-items: baseline;
+}
+
+footer {
+  padding: 20px;
+  text-align: start;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* <-----------------------class class class class class class class----------------------->  */
+
+.b-1 {
+  border-bottom: 1px solid #393e46;
+}
+.center{
+  text-align: center;
+}
+/* <-----------------------Spacing Spacing Spacing Spacing Spacing Spacing----------------------->  */
+.p-10 {
+  padding: 10px;
+}
