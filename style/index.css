@@ -92,8 +92,6 @@ button {
 footer{
   padding: 20px;
   text-align: start;
-  position: fixed;
-  bottom: 0;
   width: 100%;
   font-size: 24px;
   font-weight: 500;
