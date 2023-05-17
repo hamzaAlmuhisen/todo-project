@@ -4,12 +4,12 @@ userName = isEmpty(userName)
 
 let userGender = prompt("Please Enter Your Gender\n please note that gender must be male or female");
 userGender = isEmpty(userGender)
+userGender.toLowerCase()
 
-
-if (userGender.toLowerCase() == "male") {
+if (userGender == "male") {
     title = "Mr";
 }
-else if (userGender.toLowerCase() == "female") {
+else if (userGender == "female") {
     title = "Ms";
 }
 
