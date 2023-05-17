@@ -1,3 +1,4 @@
+'use strict';
 let title = ""
 let userName = prompt("Please Enter Your Name")
 userName = isEmpty(userName)
