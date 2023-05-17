@@ -1,15 +1,15 @@
 let title = ""
-let userName = (prompt("Please Enter Your Name"))
+let userName = prompt("Please Enter Your Name")
 userName = isEmpty(userName)
 
-let userGender = prompt("Please Enter Your Gender\n please note that gender must be male or female").toLowerCase();
+let userGender = prompt("Please Enter Your Gender\n please note that gender must be male or female");
 userGender = isEmpty(userGender)
 
 
-if (userGender == "male") {
+if (userGender.toLowerCase() == "male") {
     title = "Mr";
 }
-else if (userGender == "female") {
+else if (userGender.toLowerCase() == "female") {
     title = "Ms";
 }
 
