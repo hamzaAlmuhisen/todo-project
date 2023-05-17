@@ -36,7 +36,7 @@ array.forEach(elm=>{
 })
 
 function isEmpty(text) {
-    if (text == '') return "invalid"
+    if (text == ''||text==null) return "invalid"
 
     return text;
 }
