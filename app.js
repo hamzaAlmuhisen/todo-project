@@ -1,12 +1,11 @@
 'use strict';
-
 let title = ""
-let userName = (prompt("Please Enter Your Name"))
+let userName = prompt("Please Enter Your Name")
 userName = isEmpty(userName)
 
-let userGender = prompt("Please Enter Your Gender\n please note that gender must be male or female").toLowerCase();
+let userGender = prompt("Please Enter Your Gender\n please note that gender must be male or female");
 userGender = isEmpty(userGender)
-
+userGender.toLowerCase()
 
 if (userGender == "male") {
     title = "Mr";
@@ -42,7 +41,7 @@ array.forEach(elm => {
 })
 
 function isEmpty(text) {
-    if (text == '') return "invalid"
+    if (text == ''||text==null) return "invalid"
 
     return text;
 }
