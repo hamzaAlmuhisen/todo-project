@@ -1,3 +1,5 @@
+'use strict';
+
 let title = ""
 let userName = (prompt("Please Enter Your Name"))
 userName = isEmpty(userName)
@@ -26,12 +28,16 @@ const skip = confirm("do you want to skip the welcoming message?");
 if (!skip) alert(`welcome here ${title + " " + userName}`);
 
 
-const q1 = confirm("do like listen to music?");
-const q2 = confirm("do like watching movies?");
-const q3 = confirm("do like reading books?");
+let q1 = prompt("do like listen to music?");
+let q2 = prompt("do like watching movies?");
+let q3 = prompt("do like reading books?");
+q1 = isEmpty(q1);
+q2 = isEmpty(q1);
+q3 = isEmpty(q1);
+
 
 let array = [userName, userGender, userAge, q1, q2, q3];
-array.forEach(elm=>{
+array.forEach(elm => {
     console.log(elm);
 })
 
