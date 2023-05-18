@@ -29,34 +29,35 @@ if (!skip) alert(`welcome here ${title + " " + userName}`);
 
 
 let q1 = prompt("do like listen to music?");
-q1 = isEmpty(q1);
 
 while (true) {
     if (q1 == "yes" || q1 == "no") {
         break;
     }
     alert("you enter invalid input, the answer should be yes or no ")
+    q1 = prompt("do like listen to music?");
 }
 
 
 let q2 = prompt("do like watching movies?");
-q2 = isEmpty(q1);
 while (true) {
     if (q2 == "yes" || q2 == "no") {
         break;
     }
     alert("you enter invalid input, the answer should be yes or no ")
+    q2 = prompt("do like watching movies?");
 }
 
 
 let q3 = prompt("do like reading books?");
-q3 = isEmpty(q1);
+
 
 while (true) {
     if (q3 == "yes" || q3 == "no") {
         break;
     }
     alert("you enter invalid input, the answer should be yes or no ")
+    q3 =  prompt("do like reading books?");
 }
 
 
