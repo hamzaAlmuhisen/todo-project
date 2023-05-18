@@ -29,47 +29,39 @@ if (!skip) alert(`welcome here ${title + " " + userName}`);
 
 
 let q1 = prompt("do like listen to music?");
-
-while (true) {
-    if (q1 == "yes" || q1 == "no") {
-        break;
-    }
-    alert("you enter invalid input, the answer should be yes or no ")
-    q1 = prompt("do like listen to music?");
-}
-
+q1 = isEmpty(q1)
+q1 = isValid(q1.toLowerCase());
 
 let q2 = prompt("do like watching movies?");
-while (true) {
-    if (q2 == "yes" || q2 == "no") {
-        break;
-    }
-    alert("you enter invalid input, the answer should be yes or no ")
-    q2 = prompt("do like watching movies?");
-}
-
+q2 = isEmpty(q2)
+q2 = isValid(q2.toLowerCase());
 
 let q3 = prompt("do like reading books?");
+q3 = isEmpty(q3)
+q3 = isValid(q3.toLowerCase());
 
 
-while (true) {
-    if (q3 == "yes" || q3 == "no") {
-        break;
-    }
-    alert("you enter invalid input, the answer should be yes or no ")
-    q3 =  prompt("do like reading books?");
-}
+let array1 = [q1, q2, q3];
 
 
 
-
-let array = [userName, userGender, userAge, q1, q2, q3];
+let array = [userName, userGender, userAge];
 array.forEach(elm => {
     console.log(elm);
 })
 
+console.log(array1);
+
+
 function isEmpty(text) {
-    if (text == '') return "invalid"
+    if (text == '' || text == null) return "invalid"
 
     return text;
 }
+
+function isValid(text) {
+    if (text == "yes" || text == "no") return text;
+    return "invalids";
+}
+
+
